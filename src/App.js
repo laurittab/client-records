@@ -8,7 +8,6 @@ function App() {
   const [sample, setSample] = useState("");
 
   function recordsHandler(event) {
-    //var resData;
     axios
       .get(process.env.REACT_APP_CLIENT_SERVER_URL)
       .then((response) => {
