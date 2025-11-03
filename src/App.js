@@ -10,7 +10,7 @@ function App() {
   function recordsHandler(event) {
     //var resData;
     axios
-      .get("https://1-a-node-app-for-medical-records.glitch.me/records")
+      .get(process.env.REACT_APP_CLIENT_SERVER_URL)
       .then((response) => {
         var resData = response.data;
         var data = JSON.stringify(resData.data);

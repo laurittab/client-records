@@ -46,3 +46,4 @@ $RECYCLE.BIN/
 # you might not want to ignore staticwebapp.config.json or web.config if added manually
 !staticwebapp.config.json
 !web.config
+.vercel
